@@ -1,43 +1,39 @@
-html, body { /** NEW Added html **/
-  background-color: #D11900#;
+html, body { /** Added html **/
+  background-color: #ffffff; /** NEW Deleted extra # and changed background color from red to white **/
   font-size: 12px;
-  width: 360px; /** NEW changed width from 300 to 360 **/
-  margin: 0px; /** NEW Added margin, padding, and border specifications **/
-  padding: 0px;
+  width: 360px; /** Changed width from 300 to 360 **/
+  margin: 50px; /** Added margin, padding, and border specifications **/
+  padding: 50px;
   border: 0px;
  }
 
- .column { /** New Added column specifications **/
+ .column { /** Added column specifications **/
    float: left;
- }
-
- .left, .right {
-   width: 50%;
- }
-
- .middle {
    width: 33.33%;
  }
 
- .row:after { /**NEW Added Row specifications **/
+ .left, .right, .middle { /** NEW Combined .left, .right, and .middle into one grouping */
+   float; left;
+ }
+
+ .row:after { /** Added Row specifications **/
   content: "";
-  display: table;
   clear: both;
 }
 
-.header h1, .header h2, { /** New added .header 2 **/
-  font-size: 12px; /** New Reduced font size **/
+.header h1, .header h2 { /** Added .header 2 **/
+  font-size: 12px; /** Reduced font size **/
   line-height: 1em;
   color: #000000;
-  font-family: Montserratt; /** NEW Added missing semi-colon (;) **/
+  font-family: Montserratt; /** Added missing semi-colon (;) **/
 }
 
 div.feature {
   background-color: ffffff;
-  height: 25vh;
-  font-size: 12px; /** NEW Added missing font-size **/
+  height: 50vh;
+  font-size: 12px; /** Added missing font-size **/
  }
 
-a:hover
+a:hover { /** NEW Added missing open bracket **/
   color: #D8D8D7;
 }
