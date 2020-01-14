@@ -1,32 +1,38 @@
-html, body { /** Added html **/
+* { /** New Added box-sizing **/
+  box-sizing: border-box;
+  width: 360px; /** New Added width **/
+}
+body { /** NEW Removed html **/
   background-color: #ffffff; /** Deleted extra # **/
   font-size: 12px;
   line-height: 50px
   padding: 20px; 10px; 10px; 10px;
  }
-
+.container Eastbound, Northbound, Southbound, Reroute, Out of Service { /** New Added container and width **/
+  width: 360px;
+}
  div.feature {
    background-color: ffffff;
    font-size: 12px; /** Added missing font-size **/
-   display: inline-block; /** NEW Added in-line block **/
+   display: inline-block; /** Added in-line block **/
    padding-left: 20px;
 }
- .column { /** New Added column specifications **/
+ .column { /** Added column specifications **/
    float: left;
    width: 33.33%;
-   font-weight: bold; /**New Added font-weight **/
+   font-weight: bold; /**Added font-weight **/
 }
  .header h1 { /** Added .header 2 **/
-  font-family: Montserratt, sans-serif; /**NEW added font-style **/
+  font-family: Montserratt, sans-serif; /**Added font-style **/
   font-size: 12px; /** Reduced font size **/
   color: #000000;
   word-spacing: 1px;
 }
- .paragraph p { /**New body grouping **/
+ .paragraph p { /**Added paragraph grouping **/
   font-size: 12px;
   color: #000000;
-  content: ""; /** New moved content under body grouping **/
-  clear: both; /** New moved clear under body grouping **/
+  content: ""; /** Moved content under body grouping **/
+  clear: both; /** Moved clear under body grouping **/
  }
    
  a:hover { /** Added missing open bracket **/
