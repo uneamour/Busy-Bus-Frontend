@@ -14,7 +14,7 @@
 
 .nav { /**New added .nav specifications **/
   margin: auto;
-  padding: 20px, 10px, 10px, 10px; /**New replaced semicolons with commas **/
+  padding: 20px 10px 10px 10px; /**New deleted extraneous semicolons and commas **/
   width: 375px;
   background-color: #ffffff;
   float: right;
