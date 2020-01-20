@@ -1,43 +1,110 @@
-html, body { /** NEW Added html **/
-  background-color: #D11900#;
-  font-size: 12px;
-  width: 360px; /** NEW changed width from 300 to 360 **/
-  margin: 0px; /** NEW Added margin, padding, and border specifications **/
-  padding: 0px;
-  border: 0px;
- }
+* { /**New box sizing**/
+  box-sizing: border-box;
+  width: 375px;
+}
 
- .column { /** New Added column specifications **/
-   float: left;
- }
+.statusbar { /**New added status bar specifications **/
+  width: 375px;
+  line-height: 50px;
+  margin-top: auto;
+  float: left;
+  position: absolute;
+  padding-bottom: 5px;
+}
 
- .left, .right {
-   width: 50%;
- }
+.nav { /**New added .nav specifications **/
+  margin: auto;
+  padding: 20px; 10px; 10px; 10px;
+  width: 375px;
+  background-color: #ffffff;
+  float: right;
+}
 
- .middle {
-   width: 33.33%;
- }
-
- .row:after { /**NEW Added Row specifications **/
-  content: "";
+.status-and-nav { /**New added status and navigation specifications **/
+  position: fixed;
+  width: 375px;
   display: table;
-  clear: both;
+  margin: 0;
+
+.image { /**New added new map image **/
+  width: 100px;
+  padding-top: 80px;
+  margin:0;
 }
 
-.header h1, .header h2, { /** New added .header 2 **/
-  font-size: 12px; /** New Reduced font size **/
-  line-height: 1em;
-  color: #000000;
-  font-family: Montserratt; /** NEW Added missing semi-colon (;) **/
+.arrow { /**New added arrow specifications **/
+  text-align: right;
+  font-size: 10px;
+  margin-right: 20px;
+  margin-bottom: 10px;
 }
 
-div.feature {
-  background-color: #ffffff; /**New added missing hastag **/
-  height: 25vh;
-  font-size: 12px; /** NEW Added missing font-size **/
+container Selected Route, Other Schedule, Reroute Out of Service { /**New added new container **/
+  font-size: 3em;
+  font-weight: bold;
+  background-color: rgb(167, 20, 0);
+  border-top: 1px;
+  border-bottom: 1px;
+  width: 100px;
  }
 
-a:hover
+body {
+  box-sizing: border-box; /**New added border box **/
+  font-family: Montserrat, sans-serif; /**New added font style **/
+  margin: auto; /**New added margin specifications **/
+  line-height: 50px;
+  padding: 0; /**New adjusted padding **/
+  width: 360px;
+  background-image: url (https://www.mapquest.com/directions/from/us/illinois/chicago/60617-3007/8900-s-merrill-ave-41.733306,-87.572282/to/us/illinois/chicago/60616/3200-s-state-st-41.836296,-87.626720);
+ }
+
+content {
+   border-top: 1px;
+   border-bottom: 1px;
+   width: 100px;
+  }
+}
+
+.content h1 { /**New added .content h1 **/
+  font-size: 2em;
+  text-transform: uppercase;
+  padding: 14px;
+  margin: 0;
+}
+
+.content h2 { /**New added .content h2 **/
+  font-size: 1.75em;
+  text-align: left;
+  color: #ffffff;
+  margin-left: 15px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.content h3 { /**New added .content h3 **/
+  font-size: 1.5em;
+  text-align: left;
+  color: #ffffff;
+  padding-top: 5px;
+  margin-left: 15px;
+  margin-bottom: 10px:
+}
+
+.content h4 { /**New added .content h4 **/
+  font-size: 1em;
+  font-style: italic;
+  color: #000000;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+.content h5 { /**New added .content h5 **/
+  font-size: 1.25em;
+  color: #000000;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+a:hover { /** Added missing open bracket **/
   color: #D8D8D7;
 }
