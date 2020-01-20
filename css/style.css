@@ -33,7 +33,7 @@ html, body { /** NEW Added html **/
 }
 
 div.feature {
-  background-color: ffffff;
+  background-color: #ffffff; /**New added missing hastag **/
   height: 25vh;
   font-size: 12px; /** NEW Added missing font-size **/
  }
