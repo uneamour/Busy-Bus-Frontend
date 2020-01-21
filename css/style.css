@@ -1,6 +1,17 @@
-* { /**New box sizing**/
+ * { /**New box sizing**/
   box-sizing: border-box;
   width: 375px;
+}
+
+hr { /** New added styling for horizontal lines **/
+  display: block;
+  margin-before: 0.5em;
+  margin-after: 0.5em;
+  margin-start: auto;
+  margin-end: auto;
+  overflow: hidden;
+  border-style: inset;
+  border-width: 1px;
 }
 
 .statusbar { /**New added status bar specifications **/
@@ -14,23 +25,30 @@
 
 .nav { /**New added .nav specifications **/
   margin: auto;
-  padding: 20px 10px 10px 10px; /**New deleted extraneous semicolons and commas **/
+  padding: 20px 10px 10px 10px; /**New deleted extraneous semiolons and commas **/
   width: 375px;
   background-color: #ffffff;
   float: right;
 }
-
+.bus-heading { /**New added .bus-heading specifications **/
+  position: fixed;
+  width: 100px;
+  font-weight: bold;
+  font-size: 1.5em;
+  padding: 20px 10px 10px 10px;
+  color: #ffffff;
+}
 .status-and-nav { /**New added status and navigation specifications **/
   position: fixed;
   width: 375px;
   display: table;
   margin: 0;
-} /**New Added missing close bracket **/
+} /**New added missing close bracket **/
 
-.image { /**New added new map image **/
+.image {
   width: 100px;
   padding-top: 80px;
-  margin:0;
+  margin: 0;
 }
 
 .arrow { /**New added arrow specifications **/
@@ -40,14 +58,24 @@
   margin-bottom: 10px;
 }
 
-container Selected Route, Other Schedule, Reroute Out of Service { /**New added new container **/
-  font-size: 3em;
+.container h1 { /**New added new container **/
+  font-size: 2em;
   font-weight: bold;
   background-color: rgb(167, 20, 0);
+  display: inline-block;
+  border-top: 2px;
+  border-bottom: 2px;
+  width: 375px; /** New increased width **/
+ }
+
+.directions { /**Added new directions specifications **/
+  font-size: 1.5em;
+  font-weight: bold;
+  display: inline-block;
   border-top: 1px;
   border-bottom: 1px;
   width: 100px;
- }
+}
 
 body {
   box-sizing: border-box; /**New added border box **/
@@ -56,32 +84,29 @@ body {
   line-height: 50px;
   padding: 0; /**New adjusted padding **/
   width: 360px;
-  background-image: url (https://www.mapquest.com/directions/from/us/illinois/chicago/60617-3007/8900-s-merrill-ave-41.733306,-87.572282/to/us/illinois/chicago/60616/3200-s-state-st-41.836296,-87.626720);
  }
 
 content {
    border-top: 1px;
    border-bottom: 1px;
    width: 100px;
+   display: table;
   }
 }
 
-.content h1 { /**New added .content h1 **/
-  font-size: 2em;
-  text-transform: uppercase;
-  padding: 14px;
-  margin: 0;
+.li h2 {
+  font-weight: 300;
 }
 
-.content h2 { /**New added .content h2 **/
-  font-size: 1.75em;
+.container h2 { /**New added .container h2 **/
+  font-size: 2em;
   text-align: left;
   margin-left: 15px;
   margin-top: 15px;
   margin-bottom: 5px;
 }
 
-.content h3 { /**New added .content h3 **/
+.container h3 { /**New added .container h3 **/
   font-size: 1.5em;
   text-align: left;
   padding-top: 5px;
@@ -89,19 +114,19 @@ content {
   margin-bottom: 10px:
 }
 
-.content h4 { /**New added .content h4 **/
-  font-size: 1em;
+.container h4 { /**New added .container h4 **/
+  font-size: .9em;
   font-style: italic;
   color: #000000;
   margin-left: 15px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
-.content h5 { /**New added .content h5 **/
+.container h5 { /**New added .container h5 **/
   font-size: 1.25em;
   color: #000000;
   margin-left: 15px;
-  margin-bottom: 10px;
+  margin-bottom: 2px;
 }
 
 a:hover { /** Added missing open bracket **/
