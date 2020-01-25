@@ -7,105 +7,104 @@
     <link rel="stylesheet" type="text/css" href="css/reset.css"> <!-- Added link to reset.css file -->
     <link rel="stylesheet" type="text/css" href="css/style.css"> <!--Moved this to come after the reset.css file; changed reference from text/class to text/css -->
     <style type="text/css">
-      </style> <!--New Added style indicator -->
+      </style>
   </head>
 <body>
   <header> <!--New added missing header -->
-   <img src="images/Frontend_StatusBar.PNG" class="statusbar" alt="status bar" /> <!--New put lower case "i" on images; capitalized "Frontend_StatusBar.PNG to reflect correct pathway -->
+   <img src="images/Frontend_StatusBar.PNG" class="statusbar" alt="status bar" /> <!--Put lower case "i" on images; capitalized "Frontend_StatusBar.PNG to reflect correct pathway -->
     <span class="nav">
      <ul id="nav">
      </li>
-  <section class="Bus-Heading"> <!--New created new section header to indicate bus location -->
-    <img src="images/Frontend_arrow.PNG" class="arrow" alt="arrow"> <!-- New added image for arrow -->
+  <section class="Bus-Heading"> <!--Created new section header to indicate bus location -->
+    <img src="images/Frontend_arrow.PNG" class="arrow" alt="arrow"> <!-- Added image for arrow -->
       <i class="fa fa-chevron-left fa-inverse fa-1x" aria-hidden="true"></i>
-   <li><h1><strong>Washington/State</strong></h1></li> <!--New added street name-->
+   <dt><h1><strong>Washington/State</strong></h1></dt> <!--New changed from li to dt; added street name-->
   </span>
  </section>
 </header>
-<img src="images/FrontendMapImage.PNG" class="map" alt="map"/> <!--New put lowercased "i" on images; capitlizaed "FrontendMapImage.PNG to reflect correct pathway -->
+<img src="images/FrontendMapImage.PNG" class="map" alt="map"/> <!--Put lowercased "i" on images; capitlizaed "FrontendMapImage.PNG to reflect correct pathway -->
   <section class="container">
-    <h1><strong>Selected Route</strong></h1> <!--New added selected route indicator and put in BOLD font -->
+    <h1><strong>Selected Route</strong></h1> <!--Added selected route indicator and put in BOLD font -->
     <ul id="selected-route">
       <hr> <!--New added horizontal lines -->
-       <li><h2 class="directions">Eastbound</h2></li>
-       <li><h3>60 - Randolph/Harbor Dr.</h3></li>
-       <li><h4>Every 20 minutes</h4></li>
-       <li><h5>7:40am, 8:00am, 8:20am</h5></li>
-      <img src="images/Frontend_arrow.PNG" class="arrow" alt="arrow"> <!-- New added image for arrow -->
+       <dt><h2 class="directions">Eastbound</h2></dt> <!--New Changed beginning and ending tags from <li> to <dt> -->
+       <dd><h3>60 - Randolph/Harbor Dr.</h3></dd>  <!--New Changed beginning and ending tags from <li> to <dt> to remove bullets -->
+       <dd><h4>Every 20 minutes</h4></dd> <!--New Changed beginning and ending tags from <li> to <dt> to remove bullets -->
+       <dd><h5>7:40am, 8:00am, 8:20am</h5></dd> <!--New Changed beginning and ending tags from <li> to <dt> to remove bullets -->
+      <img src="images/Frontend_arrow.PNG" class="arrow" alt="arrow"> <!-- Added image for arrow -->
          <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
        </li>
       </section>
      </ul>
      <section class="container">
-       <h1><strong>Other Schedule</strong></h1> <!--New Added new section showing other bus schedules -->
+       <h1><strong>Other Schedule</strong></h1> <!--Added new section showing other bus schedules -->
      <section class="container">
      <ul id="other-schedule">
       <hr>
-      <li><h2 class="directions">Eastbound</h2></li>
-      <li><h3>124 - Navy Pier</h3></li>
-      <li><h4>Every 10 min</h4></li>
-      <li><h5>7:25am, 7:35am, 7:45am</h5></li>
-       <img src="images/Frontend_arrow.PNG" class="arrow" alt="arrow"> <!-- New added image for arrow -->
-	  <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+      <dt><h2 class="directions">Eastbound</h2></dt> <!--New Changed beginning and ending tags from <li> to <dt> -->
+      <dd><h3>124 - Navy Pier</h3></dd> <!--New Changed beginning and ending tags from <li> to <dt> to remove bullets -->
+      <dd><h4>Every 10 min</h4></dd> <!--New Changed beginning and ending tags from <li> to <dt> to remove bullets -->
+      <dd><h5>7:25am, 7:35am, 7:45am</h5></dd> <!--New Changed beginning and ending tags from <li> to <dt> to remove bullets -->
+       <img src="images/Frontend_arrow.PNG" class="arrow" alt="arrow"> <!-- Added image for arrow -->
+	       <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
        </li>
     </section>
        <hr>
-       <li><h2 class="directions">Northbound</h2></li>
-       <li><h3>151 - Devon/Clark</h3></li>
-       <li><h4>Every 16 min</h4></li>
-       <li><h5>7:30am, 7:46am, 8:02am</h5></li>
-       <img src="images/Frontend_arrow.PNG" class="arrow" alt="arrow"> <!-- New added image for arrow -->
+       <dt><h2 class="directions">Northbound</h2></dt> <!--New Changed beginning and ending tags from <li> to <dt> -->
+       <dd><h3>151 - Devon/Clark</h3></dd> <!--New Changed beginning and ending tags from <li> to <dt> to remove bullets -->
+       <dd><h4>Every 16 min</h4></dd> <!--New Changed beginning and ending tags from <li> to <dt> to remove bullets -->
+       <dd><h5>7:30am, 7:46am, 8:02am</h5></dd> <!--New Changed beginning and ending tags from <li> to <dt> to remove bullets -->
+       <img src="images/Frontend_arrow.PNG" class="arrow" alt="arrow"> <!-- Added image for arrow -->
          <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
        <hr>
-      </li>
+       </li>
     </section>
-       <li><h2 class="directions">Southbound</h2></li>
-       <li><h3>J14 - 103rd/Stony Island</h3></li>
-       <li><h4>Every 15 min</h4></li>
-       <li><h5>7:30am, 7:45am, 8:00am</h5></li>
-        <img src="images/Frontend_arrow.PNG" class="arrow" alt="arrow"> <!-- New added image for arrow -->
-         <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
-       <hr>
-       <li><h3>124 Navy Pier</h3></li>
-       <li><h4>Every 10 mins</h4></li>
-       <li><h5>7:30am, 7:40am, 7:50am</h5></li>
-        <img src="images/Frontend_arrow.PNG" class="arrow" alt="arrow"> <!-- New added image for arrow -->
+       <dt><h2 class="directions">Southbound</h2></dt> <!--New Changed beginning and ending tags from <li> to <dt> -->
+       <dd><h3>J14 - 103rd/Stony Island</h3></dd> <!--New Changed beginning and ending tags from <li> to <dt> to remove bullets -->
+       <dd><h4>Every 15 mins</h4></dd> <!--New Changed beginning and ending tags from <li> to <dt> to remove bullets -->
+       <dd><h5>7:30am, 7:45am, 8:00am</h5></dd> <!--New Changed beginning and ending tags from <li> to <dt> to remove bullets -->
+        <img src="images/Frontend_arrow.PNG" class="arrow" alt="arrow"> <!-- Added image for arrow -->
          <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
         <hr>
-       </li>
+       <dd><h3>124 Navy Pier</h3></dd> <!--New Changed beginning and ending tags from <li> to <dt> to remove bullets -->
+       <dd><h4>Every 10 mins</h4></dd> <!--New Changed beginning and ending tags from <li> to <dt> to remove bullets -->
+       <dd><h5>7:30am, 7:40am, 7:50am</h5></dd> <!--New Changed beginning and ending tags from <li> to <dt> to remove bullets -->
+        <img src="images/Frontend_arrow.PNG" class="arrow" alt="arrow"> <!-- Added image for arrow -->
+         <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+        </li>
     </section>
      <section class="container">
-      <h1><strong>Reroute</strong></h1> <!--New added bus Reroute indicator and put in BOLD font -->
+      <h1><strong>Reroute</strong></h1> <!--Added bus Reroute indicator and put in BOLD font -->
       <ul id="reroute">
-     <section class="content"><!--New re-organized section -->
-       <li><h3>6x - Jackson Park Express</h3></li>
-       <li><h4>N/A</h4></li>
-       <img src="images/Frontend_arrow.PNG" class="arrow" alt="arrow"> <!-- New added image for arrow -->
+      <hr>
+     <section class="content"><!--Re-organized section -->
+       <dd><h3>6x - Jackson Park Express</h3></dd> <!--New Changed beginning and ending tags from <li> to <dt> to remove bullets -->
+       <dd><h4>N/A</h4></dd> <!--New Changed beginning and ending tags from <li> to <dt> to remove bullets -->
+       <img src="images/Frontend_arrow.PNG" class="arrow" alt="arrow"> <!-- Added image for arrow -->
          <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
-       <hr>
       </li>
     </section>
      <section class="container">
-      <h1><strong>Out of Service</strong></h1> <!--New added bus Reroute indicator -->
+      <h1><strong>Out of Service</strong></h1> <!--Added bus Reroute indicator -->
       <ul id="out-of-service">
-     <section class="content">  <!--New added bus Out-of-Service indicator -->
-       <li><h3>4 - Cottage Grove</h3></li>
-       <li><h4>Resumes 12:10am</h4></li>
-       <img src="images/Frontend_arrow.PNG" class="arrow" alt="arrow"> <!-- New added image for arrow -->
+      <hr>
+     <section class="content">  <!--Added bus Out-of-Service indicator -->
+       <dd><h3>4 - Cottage Grove</h3></dd> <!--New Changed beginning and ending tags from <li> to <dt> to remove bullets -->
+       <dd><h4>Resumes 12:10am</h4></dd> <!--New Changed beginning and ending tags from <li> to <dt> to remove bullets -->
+       <img src="images/Frontend_arrow.PNG" class="arrow" alt="arrow"> <!-- Added image for arrow -->
+         <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+        <hr>
+       <dd><h3>20 Madison</h3></dd> <!--New Changed beginning and ending tags from <li> to <dt> to remove bullets -->
+       <dd><h4>Resumes 12:10am</h4></dd> <!--New Changed beginning and ending tags from <li> to <dt> to remove bullets -->
+       <img src="images/Frontend_arrow.PNG" class="arrow" alt="arrow"> <!-- Added image for arrow -->
          <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
        <hr>
-       <li><h3>20 Madison</h3></li>
-       <li><h4>Resumes 12:10am</h4></li>
-       <img src="images/Frontend_arrow.PNG" class="arrow" alt="arrow"> <!-- New added image for arrow -->
-         <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
-       <hr>
-       <li><h3>157 - Streeterville/Taylor</h3></li>
-       <li><h4>Resumes 6:00am</h4></li>
-       <img src="images/Frontend_arrow.PNG" class="arrow" alt="arrow"> <!-- New added image for arrow -->
+       <dd><h3>157 - Streeterville/Taylor</h3></dd> <!--New Changed beginning and ending tags from <li> to <dt> to remove bullets -->
+       <dd><h4>Resumes 6:00am</h4></dd> <!--New Changed beginning and ending tags from <li> to <dt> to remove bullets -->
+       <img src="images/Frontend_arrow.PNG" class="arrow" alt="arrow"> <!-- Added image for arrow -->
          <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
        </li>
       </section>
      </ul>
     </body>
  </html>
-
