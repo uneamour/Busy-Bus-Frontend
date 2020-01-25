@@ -6,7 +6,7 @@
 hr { /** Added styling for horizontal lines **/
   display: block;
   margin-before: 0.25em;
-  margin-after: 0.25em;
+  margin-after: 0.5em;
   margin-start: auto;
   margin-end: auto;
   overflow: hidden;
@@ -26,7 +26,7 @@ hr { /** Added styling for horizontal lines **/
 .nav { /**Added .nav specifications **/
   margin: auto;
   padding: 20px 10px 10px 10px; /**Deleted extraneous semiolons and commas **/
-  width: 375px;
+  width: 400px; /**New increased width **/
   background-color: #ffffff;
   float: left; /**New Changed from float: left to right **/
 }
@@ -66,7 +66,7 @@ hr { /** Added styling for horizontal lines **/
   display: inline-block;
   border-top: 1px; /**Reduced pixel size from 2px to 1px **/
   border-bottom: 1px; /**Reduced pixel size from 2px to 1px **/
-  width: 375px; /** Increased width **/
+  width: 400px; /** New Increased width **/
  }
 
 .directions { /**Added new directions specifications **/
@@ -75,7 +75,7 @@ hr { /** Added styling for horizontal lines **/
   display: inline-block;
   border-top: 1px;
   border-bottom: 1px;
-  width: 100px;
+  width: 150px;
 }
 
 body {
@@ -89,8 +89,11 @@ body {
   width: 10% 80% 10%;
  }
 
-dd { /**New container added **/
-  display: inline-block;
+dd { /**New container added to change location of bus-time location on screen**/
+  float: left;
+  padding: 5% 5% 5% 5%;
+  width: 33%;
+  clear: right;
 }
 
 content {
@@ -126,7 +129,6 @@ content {
   color: #000000;
   margin-left: 15px;
   margin-bottom: 5px;
-  display: inline-block;
 }
 
 .container h5 { /**Added .container h5 **/
@@ -139,3 +141,4 @@ content {
 a:hover { /** Added missing open bracket **/
   color: #D8D8D7;
 }
+
