@@ -28,7 +28,7 @@ hr { /** Added styling for horizontal lines **/
   padding: 20px 10px 10px 10px; /**Deleted extraneous semiolons and commas **/
   width: 375px;
   background-color: #ffffff;
-  float: right;
+  float: left; /**New Changed from float: left to right **/
 }
 .bus-heading { /**Added .bus heading specifications **/
   position: fixed;
@@ -53,19 +53,20 @@ hr { /** Added styling for horizontal lines **/
 
 .arrow { /**Added arrow specifications **/
   text-align: right;
-  font-size: 3px; /** New reduced size of arrow or chevron **/
+  font-size: 3px; /** Reduced size of arrow or chevron **/
   margin-right: 20px;
   margin-bottom: 10px;
+  float:right; /**New added float right **/
 }
 
 .container h1 { /**Added new container **/
   font-size: 2em;
   font-weight: bold;
-  background-color: #ff6666; /**New changed background color from dark red that did not pass accessibility to ligher shade **/
+  background-color: #ff6666; /**Changed background color from dark red that did not pass accessibility to ligher shade **/
   display: inline-block;
-  border-top: 1px; /**New reduced pixel size from 2px to 1px **/
-  border-bottom: 1px; /**New reduced pixel size from 2px to 1px **/
-  width: 375px; /** New increased width **/
+  border-top: 1px; /**Reduced pixel size from 2px to 1px **/
+  border-bottom: 1px; /**Reduced pixel size from 2px to 1px **/
+  width: 375px; /** Increased width **/
  }
 
 .directions { /**Added new directions specifications **/
@@ -79,12 +80,13 @@ hr { /** Added styling for horizontal lines **/
 
 body {
   box-sizing: border-box; /**Added border box **/
-  font-family: Montserrat, sans-serif; /**New added font style **/
+  font-family: Montserrat, sans-serif; /**Added font style **/
   margin: auto; /**Added margin specifications **/
   line-height: 50px;
   padding: 0; /**Adjusted padding **/
-  width: 360px;
   background-image: url (https://www.mapquest.com/directions/from/us/illinois/chicago/60617-3007/8900-s-merrill-ave-41.733306,-87.572282/to/us/illinois/chicago/60616/3200-s-state-st-41.836296,-87.626720);
+  floating: left; /**New added new floating specifiications **/
+  width: 10% 80% 10%; /**New added new width specifications **/
  }
 
 content {
@@ -100,7 +102,7 @@ content {
 }
 
 .container h2 { /**Added .container h2 **/
-  font-size: 1.5em; /**New reduced font size **/
+  font-size: 1.5em; /**Reduced font size **/
   text-align: left;
   margin-left: 15px;
   margin-top: 15px;
@@ -108,7 +110,7 @@ content {
 }
 
 .container h3 { /**Added .container h3 **/
-  font-size: 1.25em; /**New reduced font size **/
+  font-size: 1.25em; /**Reduced font size **/
   text-align: left;
   padding-top: 5px;
   margin-left: 15px;
@@ -122,6 +124,8 @@ content {
   margin-left: 15px;
   margin-bottom: 5px;
   display: inline-block;
+  floating: left; /**New added new floating specifications **/
+  width: 10%; /**New added new width specifications **/
 }
 
 .container h5 { /**Added .container h5 **/
