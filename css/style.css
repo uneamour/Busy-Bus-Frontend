@@ -1,4 +1,4 @@
- *, { /**Added box sizing**/
+ * { /**New removed comma**/
   box-sizing: border-box;
   width: 375px;
 }
@@ -84,18 +84,21 @@ body {
   margin: auto; /**Added margin specifications **/
   line-height: 50px;
   padding: 0; /**Adjusted padding **/
-  background-image: url (https://www.mapquest.com/directions/from/us/illinois/chicago/60617-3007/8900-s-merrill-ave-41.733306,-87.572282/to/us/illinois/chicago/60616/3200-s-state-st-41.836296,-87.626720);
-  floating: left; /**New added new floating specifiications **/
-  width: 10% 80% 10%; /**New added new width specifications **/
+  background-image: url(https://www.mapquest.com/directions/from/us/illinois/chicago/60617-3007/8900-s-merrill-ave-41.733306,-87.572282/to/us/illinois/chicago/60616/3200-s-state-st-41.836296,-87.626720); /**New deleted extra space between URL and beginning parentheses **/
+  float: left; /**New Changed to correctly spell float **/
+  width: 10% 80% 10%;
  }
+
+dd { /**New container added **/
+  display: inline-block;
+}
 
 content {
    border-top: 1px;
    border-bottom: 1px;
    width: 100px;
    display: table;
-  }
-}
+  } /**deleted extra closing bracket **/
 
 .li h2 {
   font-weight: 300;
@@ -114,7 +117,7 @@ content {
   text-align: left;
   padding-top: 5px;
   margin-left: 15px;
-  margin-bottom: 5px:
+  margin-bottom: 5px;
 }
 
 .container h4 { /**Added .container h4 **/
@@ -124,8 +127,6 @@ content {
   margin-left: 15px;
   margin-bottom: 5px;
   display: inline-block;
-  floating: left; /**New added new floating specifications **/
-  width: 10%; /**New added new width specifications **/
 }
 
 .container h5 { /**Added .container h5 **/
