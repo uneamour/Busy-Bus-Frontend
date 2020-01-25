@@ -1,12 +1,12 @@
- * { /**New box sizing**/
+ *, { /**Added box sizing**/
   box-sizing: border-box;
   width: 375px;
 }
 
-hr { /** New added styling for horizontal lines **/
+hr { /** Added styling for horizontal lines **/
   display: block;
-  margin-before: 0.5em;
-  margin-after: 0.5em;
+  margin-before: 0.25em;
+  margin-after: 0.25em;
   margin-start: auto;
   margin-end: auto;
   overflow: hidden;
@@ -14,7 +14,7 @@ hr { /** New added styling for horizontal lines **/
   border-width: 1px;
 }
 
-.statusbar { /**New added status bar specifications **/
+.statusbar { /**Added status bar specifications **/
   width: 375px;
   line-height: 50px;
   margin-top: auto;
@@ -23,14 +23,14 @@ hr { /** New added styling for horizontal lines **/
   padding-bottom: 5px;
 }
 
-.nav { /**New added .nav specifications **/
+.nav { /**Added .nav specifications **/
   margin: auto;
-  padding: 20px 10px 10px 10px; /**New deleted extraneous semiolons and commas **/
+  padding: 20px 10px 10px 10px; /**Deleted extraneous semiolons and commas **/
   width: 375px;
   background-color: #ffffff;
   float: right;
 }
-.bus-heading { /**New added .bus-heading specifications **/
+.bus-heading { /**Added .bus heading specifications **/
   position: fixed;
   width: 100px;
   font-weight: bold;
@@ -38,12 +38,12 @@ hr { /** New added styling for horizontal lines **/
   padding: 20px 10px 10px 10px;
   color: #ffffff;
 }
-.status-and-nav { /**New added status and navigation specifications **/
+.status-and-nav { /**Added status and navigation specifications **/
   position: fixed;
   width: 375px;
   display: table;
   margin: 0;
-} /**New added missing close bracket **/
+} /**Added missing close bracket **/
 
 .image {
   width: 100px;
@@ -51,20 +51,20 @@ hr { /** New added styling for horizontal lines **/
   margin: 0;
 }
 
-.arrow { /**New added arrow specifications **/
+.arrow { /**Added arrow specifications **/
   text-align: right;
-  font-size: 10px;
+  font-size: 3px; /** New reduced size of arrow or chevron **/
   margin-right: 20px;
   margin-bottom: 10px;
 }
 
-.container h1 { /**New added new container **/
+.container h1 { /**Added new container **/
   font-size: 2em;
   font-weight: bold;
-  background-color: rgb(167, 20, 0);
+  background-color: #ff6666; /**New changed background color from dark red that did not pass accessibility to ligher shade **/
   display: inline-block;
-  border-top: 2px;
-  border-bottom: 2px;
+  border-top: 1px; /**New reduced pixel size from 2px to 1px **/
+  border-bottom: 1px; /**New reduced pixel size from 2px to 1px **/
   width: 375px; /** New increased width **/
  }
 
@@ -78,12 +78,13 @@ hr { /** New added styling for horizontal lines **/
 }
 
 body {
-  box-sizing: border-box; /**New added border box **/
+  box-sizing: border-box; /**Added border box **/
   font-family: Montserrat, sans-serif; /**New added font style **/
-  margin: auto; /**New added margin specifications **/
+  margin: auto; /**Added margin specifications **/
   line-height: 50px;
-  padding: 0; /**New adjusted padding **/
+  padding: 0; /**Adjusted padding **/
   width: 360px;
+  background-image: url (https://www.mapquest.com/directions/from/us/illinois/chicago/60617-3007/8900-s-merrill-ave-41.733306,-87.572282/to/us/illinois/chicago/60616/3200-s-state-st-41.836296,-87.626720);
  }
 
 content {
@@ -98,32 +99,33 @@ content {
   font-weight: 300;
 }
 
-.container h2 { /**New added .container h2 **/
-  font-size: 2em;
+.container h2 { /**Added .container h2 **/
+  font-size: 1.5em; /**New reduced font size **/
   text-align: left;
   margin-left: 15px;
   margin-top: 15px;
   margin-bottom: 5px;
 }
 
-.container h3 { /**New added .container h3 **/
-  font-size: 1.5em;
+.container h3 { /**Added .container h3 **/
+  font-size: 1.25em; /**New reduced font size **/
   text-align: left;
   padding-top: 5px;
   margin-left: 15px;
-  margin-bottom: 10px:
+  margin-bottom: 5px:
 }
 
-.container h4 { /**New added .container h4 **/
+.container h4 { /**Added .container h4 **/
   font-size: .9em;
   font-style: italic;
   color: #000000;
   margin-left: 15px;
   margin-bottom: 5px;
+  display: inline-block;
 }
 
-.container h5 { /**New added .container h5 **/
-  font-size: 1.25em;
+.container h5 { /**Added .container h5 **/
+  font-size: 1em;
   color: #000000;
   margin-left: 15px;
   margin-bottom: 2px;
