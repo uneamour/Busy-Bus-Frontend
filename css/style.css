@@ -6,7 +6,7 @@
 hr { /** Added styling for horizontal lines **/
   display: block;
   margin-before: 0.25em;
-  margin-after: 0.5em;
+  margin-after: 0.25em;
   margin-start: auto;
   margin-end: auto;
   overflow: hidden;
@@ -23,27 +23,24 @@ hr { /** Added styling for horizontal lines **/
   padding-bottom: 5px;
 }
 
-.nav { /**Added .nav specifications **/
-  margin: auto;
-  padding: 20px 10px 10px 10px; /**Deleted extraneous semiolons and commas **/
-  width: 400px; /**New increased width **/
-  background-color: #ffffff;
-  float: left; /**New Changed from float: left to right **/
-}
-.bus-heading { /**Added .bus heading specifications **/
+.nav { /**New Added .nav specifications **/
+  background color: #000000;
+  margin: 0 auto;
+  padding: 15px 0 15px 15px;
   position: fixed;
+  width: 420px
+  font-size: 1px;
+}
+
+.directions h2 { /**Added .bus heading specifications **/
+  position: relative;
   width: 100px;
   font-weight: bold;
   font-size: 1.5em;
   padding: 20px 10px 10px 10px;
-  color: #ffffff;
+  color: #00000;
+  float: left;
 }
-.status-and-nav { /**Added status and navigation specifications **/
-  position: fixed;
-  width: 375px;
-  display: table;
-  margin: 0;
-} /**Added missing close bracket **/
 
 .image {
   width: 100px;
@@ -52,31 +49,22 @@ hr { /** Added styling for horizontal lines **/
 }
 
 .arrow { /**Added arrow specifications **/
-  text-align: right;
-  font-size: 3px; /** Reduced size of arrow or chevron **/
-  margin-right: 20px;
-  margin-bottom: 10px;
+  display: inline-block;
+  font-size: 1px; /** New reduced size of arrow or chevron **/
+  position: relative;
   float:right; /**New added float right **/
 }
 
-.container h1 { /**Added new container **/
+.section-header h1 { /**Added new container **/
   font-size: 2em;
   font-weight: bold;
+  color: #ffffff;
   background-color: #ff6666; /**Changed background color from dark red that did not pass accessibility to ligher shade **/
   display: inline-block;
   border-top: 1px; /**Reduced pixel size from 2px to 1px **/
   border-bottom: 1px; /**Reduced pixel size from 2px to 1px **/
   width: 400px; /** New Increased width **/
  }
-
-.directions { /**Added new directions specifications **/
-  font-size: 1.5em;
-  font-weight: bold;
-  display: inline-block;
-  border-top: 1px;
-  border-bottom: 1px;
-  width: 150px;
-}
 
 body {
   box-sizing: border-box; /**Added border box **/
@@ -89,56 +77,39 @@ body {
   width: 10% 80% 10%;
  }
 
-dd { /**New container added to change location of bus-time location on screen**/
-  float: left;
-  padding: 5% 5% 5% 5%;
-  width: 33%;
-  clear: right;
-}
-
-content {
-   border-top: 1px;
-   border-bottom: 1px;
-   width: 100px;
-   display: table;
-  } /**deleted extra closing bracket **/
-
-.li h2 {
-  font-weight: 300;
-}
-
-.container h2 { /**Added .container h2 **/
+.route_and_frequency h2 { /**Added .route_and_frequency h2 **/
   font-size: 1.5em; /**Reduced font size **/
   text-align: left;
-  margin-left: 15px;
-  margin-top: 15px;
-  margin-bottom: 5px;
+  padding: 2% 2% 2% 2%;
+  display: inline-block;
+  background-color: #CDCBCB;
+  width: 400px;
 }
 
-.container h3 { /**Added .container h3 **/
-  font-size: 1.25em; /**Reduced font size **/
-  text-align: left;
-  padding-top: 5px;
-  margin-left: 15px;
-  margin-bottom: 5px;
-}
-
-.container h4 { /**Added .container h4 **/
-  font-size: .9em;
-  font-style: italic;
+.route_and_frequency h3 { /**Added .route_and_frequency h3 **/
+  font-size: 1.25em;
   color: #000000;
+  font-weight: bolder;
   margin-left: 15px;
   margin-bottom: 5px;
+  float: left;
 }
 
-.container h5 { /**Added .container h5 **/
+.route_and_frequency h4 { /**Added .route_and_frequency h4 **/
   font-size: 1em;
   color: #000000;
+  font-style: italic;
   margin-left: 15px;
+  margin-bottom: 5px;
+}
+
+.bus_times h5 { /**Added .bus-times h5 **/
+  font-size: 1em;
+  color: #000000;
+  margin-left: 5px;
   margin-bottom: 2px;
 }
 
-a:hover { /** Added missing open bracket **/
-  color: #D8D8D7;
+.bus_times:hover { /** Added missing open bracket **/
+  color: #CDCBCB;
 }
-
