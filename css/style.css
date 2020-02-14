@@ -1,7 +1,18 @@
- * { /**New removed comma**/
+ * { /**Removed comma**/
   box-sizing: border-box;
   width: 375px;
 }
+
+body { /**New moved body tag to come earlier in the code **/
+  box-sizing: border-box; /**Added border box **/
+  font-family: Montserrat, sans-serif; /**Added font style **/
+  margin: auto; /**Added margin specifications **/
+  line-height: 50px;
+  padding: 0; /**Adjusted padding **/
+  background-image: url(https://www.mapquest.com/directions/from/us/illinois/chicago/60617-3007/8900-s-merrill-ave-41.733306,-87.572282/to/us/illinois/chicago/60616/3200-s-state-st-41.836296,-87.626720); /**New deleted extra space between URL and beginning parentheses **/
+  float: left; /**New Changed to correctly spell float **/
+  width: 10% 80% 10%;
+ }
 
 hr { /** Added styling for horizontal lines **/
   display: block;
@@ -14,6 +25,14 @@ hr { /** Added styling for horizontal lines **/
   border-width: 1px;
 }
 
+.container { /**New added container element **/
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-basis: auto;
+}
+
 .statusbar { /**Added status bar specifications **/
   width: 375px;
   line-height: 50px;
@@ -23,7 +42,7 @@ hr { /** Added styling for horizontal lines **/
   padding-bottom: 5px;
 }
 
-.nav { /**New Added .nav specifications **/
+.nav { /**Added .nav specifications **/
   background color: #000000;
   margin: 0 auto;
   padding: 15px 0 15px 15px;
@@ -50,12 +69,12 @@ hr { /** Added styling for horizontal lines **/
 
 .arrow { /**Added arrow specifications **/
   display: inline-block;
-  font-size: 1px; /** New reduced size of arrow or chevron **/
+  font-size: 1px; /** Reduced size of arrow or chevron **/
   position: relative;
-  float:right; /**New added float right **/
+  float:right; /**Added float right **/
 }
 
-.section-header h1 { /**Added new container **/
+.header h1 { /**Added new container **/
   font-size: 2em;
   font-weight: bold;
   color: #ffffff;
@@ -63,18 +82,7 @@ hr { /** Added styling for horizontal lines **/
   display: inline-block;
   border-top: 1px; /**Reduced pixel size from 2px to 1px **/
   border-bottom: 1px; /**Reduced pixel size from 2px to 1px **/
-  width: 400px; /** New Increased width **/
- }
-
-body {
-  box-sizing: border-box; /**Added border box **/
-  font-family: Montserrat, sans-serif; /**Added font style **/
-  margin: auto; /**Added margin specifications **/
-  line-height: 50px;
-  padding: 0; /**Adjusted padding **/
-  background-image: url(https://www.mapquest.com/directions/from/us/illinois/chicago/60617-3007/8900-s-merrill-ave-41.733306,-87.572282/to/us/illinois/chicago/60616/3200-s-state-st-41.836296,-87.626720); /**New deleted extra space between URL and beginning parentheses **/
-  float: left; /**New Changed to correctly spell float **/
-  width: 10% 80% 10%;
+  width: 400px; /** Increased width **/
  }
 
 .route_and_frequency h2 { /**Added .route_and_frequency h2 **/
@@ -90,13 +98,13 @@ body {
   font-size: 1.25em;
   color: #000000;
   font-weight: bolder;
-  margin-left: 15px;
+  margin-left: 10px;
   margin-bottom: 5px;
   float: left;
 }
 
 .route_and_frequency h4 { /**Added .route_and_frequency h4 **/
-  font-size: 1em;
+  font-size: .75em;
   color: #000000;
   font-style: italic;
   margin-left: 15px;
@@ -104,10 +112,10 @@ body {
 }
 
 .bus_times h5 { /**Added .bus-times h5 **/
-  font-size: 1em;
+  font-size: .75em;
   color: #000000;
-  margin-left: 5px;
-  margin-bottom: 2px;
+  margin-left: 60px;
+  margin-top: 2px;
 }
 
 .bus_times:hover { /** Added missing open bracket **/
