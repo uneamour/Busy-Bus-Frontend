@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8"> <!--New Addition to define my HTML Doc sharacter set -->
+    <meta charset="utf-8"> <!--Added to define my HTML Doc sharacter set -->
     <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Moved viewport to come within the header grouping -->
     <title> Busy Bus Routes</title>
     <link rel="stylesheet" type="text/css" href="css/reset.css"> <!-- Added link to reset.css file -->
@@ -9,137 +9,151 @@
     <style type="text/css">
       </style>
   </head>
+
 <body>
-  <header> <!--New simplified header -->
+  <header> <!--Simplified header -->
    <img src="images/Frontend_StatusBar.PNG" class="statusbar" alt="status bar" /> <!--Put lower case "i" on images; capitalized "Frontend_StatusBar.PNG to reflect correct pathway -->
     <div class="title">
      <h1>Washington/State</h1>
+   </div>
   </header>
   <img src="images/FrontendMapImage.PNG" class="map" alt="map"/> <!--Put lowercased "i" on images; capitlizaed "FrontendMapImage.PNG to reflect correct pathway -->
   <section class="container">
-    <nav> <!--NEW added new arrow navigation -->
+    <nav> <!--Added new arrow navigation -->
       <div class="arrow-left">
         <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
       </div>
-     <div class="section-header">
+    </nav>
+  </section>
+
+  <section class="container"> <!--New added section container-->
+     <div class="header">
       <h1><strong>Selected Route</strong></h1> <!--Added selected route indicator and put in BOLD font -->
        <ul id="selected-route">
-      <hr> <!--New added horizontal lines -->
+      <hr> <!--Added horizontal lines -->
      </div>
      <div class="directions">
-       <dt><h2>Eastbound</h2></dt> <!--New Changed beginning and ending tags from <li> to <dt> -->
+       <dt><h2>Eastbound</h2></dt> <!--Changed beginning and ending tags from <li> to <dt> -->
      </div>
      <div class="route_and_frequency">
-       <dd><h3>60 - Randolph/Harbor Dr.</h3></dd>  <!--New Changed beginning and ending tags from <li> to <dd> to remove bullets -->
-       <dd><h4>Every 20 minutes</h4></dd> <!--New Changed beginning and ending tags from <li> to <dt> to remove bullets -->
+       <dd><h3>60 - Randolph/Harbor Dr.</h3></dd>  <!--Changed beginning and ending tags from <li> to <dt> to remove bullets -->
+       <dd><h4>Every 20 minutes</h4></dd> <!--Changed beginning and ending tags from <li> to <dt> to remove bullets -->
      </div>
      <div class="bus_times">
-       <dd><h5>7:40am, 8:00am, 8:20am</h5></dd> <!--New Changed beginning and ending tags from <li> to <dd> to remove bullets -->
+       <dd><h5>7:40am, 8:00am, 8:20am</h5></dd> <!--Changed beginning and ending tags from <li> to <dt> to remove bullets -->
       </div>
-        <div class="arrow-right"> <!--NEW added new arrow navigation -->
+        <div class="arrow-right"> <!--Added new arrow navigation -->
           <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
         </div>
        </li>
-      </section>
-     </ul>
-     <div class="section-header">
+    </section>
+    </ul>
+
+    <section class="container"> <!--New added section container-->
+     <div class="header">
        <h1><strong>Other Schedule</strong></h1> <!--Added new section showing other bus schedules -->
-     <section class="container">
      <ul id="other-schedule">
       <hr>
      <div class="directions">
-      <dt><h2>Eastbound</h2></dt> <!--New Changed beginning and ending tags from <li> to <dt> -->
+      <dt><h2>Eastbound</h2></dt> <!--Changed beginning and ending tags from <li> to <dt> -->
      </div>
      <div class="route_and_frequency">
-      <dd><h3>124 - Navy Pier</h3></dd> <!--New Changed beginning and ending tags from <li> to <dd> to remove bullets -->
-      <dd><h4>Every 10 min</h4></dd> <!--New Changed beginning and ending tags from <li> to <dd> to remove bullets -->
+      <dd><h3>124 - Navy Pier</h3></dd> <!--Changed beginning and ending tags from <li> to <dt> to remove bullets -->
+      <dd><h4>Every 10 min</h4></dd> <!--Changed beginning and ending tags from <li> to <dt> to remove bullets -->
      </div>
      <div class="bus_times">
-      <dd><h5>7:25am, 7:35am, 7:45am</h5></dd> <!--New Changed beginning and ending tags from <li> to <dd> to remove bullets -->
+      <dd><h5>7:25am, 7:35am, 7:45am</h5></dd> <!--Changed beginning and ending tags from <li> to <dt> to remove bullets -->
      </div>
-      <div class="arrow-right"> <!--NEW added new arrow navigation -->
+      <div class="arrow-right"> <!--Added new arrow navigation -->
         <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
       </div>
     </section>
       <hr>
+
+    <section class="container"> <!--New added section container-->
      <div class="directions">
-       <dt><h2>Northbound</h2></dt> <!--New Changed beginning and ending tags from <li> to <dt> -->
+       <dt><h2>Northbound</h2></dt> <!--Changed beginning and ending tags from <li> to <dt> -->
      </div>
      <div class="route_and_frequency">
-       <dd><h3>151 - Devon/Clark</h3></dd> <!--New Changed beginning and ending tags from <li> to <dd> to remove bullets -->
-       <dd><h4>Every 16 min</h4></dd> <!--New Changed beginning and ending tags from <li> to <dd> to remove bullets -->
+       <dd><h3>151 - Devon/Clark</h3></dd> <!--Changed beginning and ending tags from <li> to <dt> to remove bullets -->
+       <dd><h4>Every 16 min</h4></dd> <!--Changed beginning and ending tags from <li> to <dt> to remove bullets -->
      </div>
      <div class="bus_times">
-       <dd><h5>7:30am, 7:46am, 8:02am</h5></dd> <!--New Changed beginning and ending tags from <li> to <dd> to remove bullets -->
+       <dd><h5>7:30am, 7:46am, 8:02am</h5></dd> <!--Changed beginning and ending tags from <li> to <dt> to remove bullets -->
      </div>
-      <div class="arrow-right"> <!--NEW added new arrow navigation -->
+      <div class="arrow-right"> <!--Added new arrow navigation -->
         <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
       </div>
       <hr>
      </li>
     </section>
+
+   <section class="container"> <!--New added section container-->
      <div class="directions">
-       <dt><h2>Southbound</h2></dt> <!--New Changed beginning and ending tags from <li> to <dt> -->
+       <dt><h2>Southbound</h2></dt> <!--Changed beginning and ending tags from <li> to <dt> -->
      </div>
      <div class="route_and_frequency">
-       <dd><h3>J14 - 103rd/Stony Island</h3></dd> <!--New Changed beginning and ending tags from <li> to <dd> to remove bullets -->
-       <dd><h4>Every 15 mins</h4></dd> <!--New Changed beginning and ending tags from <li> to <dd> to remove bullets -->
+       <dd><h3>J14 - 103rd/Stony Island</h3></dd> <!--Changed beginning and ending tags from <li> to <dt> to remove bullets -->
+       <dd><h4>Every 15 mins</h4></dd> <!--Changed beginning and ending tags from <li> to <dt> to remove bullets -->
      </div>
      <div class="bus_times">
-       <dd><h5>7:30am, 7:45am, 8:00am</h5></dd> <!--New Changed beginning and ending tags from <li> to <dd> to remove bullets -->
+       <dd><h5>7:30am, 7:45am, 8:00am</h5></dd> <!--Changed beginning and ending tags from <li> to <dt> to remove bullets -->
      </div>
-       <div class="arrow-right"> <!--NEW added new arrow navigation -->
+       <div class="arrow-right"> <!--Added new arrow navigation -->
         <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
       </div>
       <hr>
       <div class="route_and_frequency">
-       <dd><h3>124 Navy Pier</h3></dd> <!--New Changed beginning and ending tags from <li> to <dd> to remove bullets -->
-       <dd><h4>Every 10 mins</h4></dd> <!--New Changed beginning and ending tags from <li> to <dd> to remove bullets -->
+       <dd><h3>124 Navy Pier</h3></dd> <!--Changed beginning and ending tags from <li> to <dt> to remove bullets -->
+       <dd><h4>Every 10 mins</h4></dd> <!--Changed beginning and ending tags from <li> to <dt> to remove bullets -->
       </div>
       <div class="bus_times">
-       <dd><h5>7:30am, 7:40am, 7:50am</h5></dd> <!--New Changed beginning and ending tags from <li> to <dd> to remove bullets -->
+       <dd><h5>7:30am, 7:40am, 7:50am</h5></dd> <!--Changed beginning and ending tags from <li> to <dt> to remove bullets -->
       </div>
-       <div class="arrow-right"> <!--NEW added new arrow navigation -->
+       <div class="arrow-right"> <!--Added new arrow navigation -->
         <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
       </div>
      </li>
     </section>
-     <div class="section-header">
+
+   <section class="container"> <!--New added section container-->
+     <div class="header">
       <h1><strong>Reroute</strong></h1> <!--Added bus Reroute indicator and put in BOLD font -->
       <ul id="reroute">
       <hr>
      <div class="route_and_frequency"><!--Re-organized section -->
-       <dd><h3>6x - Jackson Park Express</h3></dd> <!--New Changed beginning and ending tags from <li> to <dd> to remove bullets -->
-       <dd><h4>N/A</h4></dd> <!--New Changed beginning and ending tags from <li> to <dd> to remove bullets -->
+       <dd><h3>6x - Jackson Park Express</h3></dd> <!--Changed beginning and ending tags from <li> to <dt> to remove bullets -->
+       <dd><h4>N/A</h4></dd> <!--Changed beginning and ending tags from <li> to <dt> to remove bullets -->
      </div>
-      <div class="arrow-right"> <!--NEW added new arrow navigation -->
+      <div class="arrow-right"> <!--Added new arrow navigation -->
         <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
       </div>
     </li>
   </section>
-    <div class="section-header">
+
+    <div class="header"> <!--New added section container-->
       <h1><strong>Out of Service</strong></h1> <!--Added bus Reroute indicator -->
       <ul id="out-of-service">
       <hr>
      <div class="route_and_frequency">  <!--Added bus Out-of-Service indicator -->
-       <dd><h3>4 - Cottage Grove</h3></dd> <!--New Changed beginning and ending tags from <li> to <dd> to remove bullets -->
-       <dd><h4>Resumes 12:10am</h4></dd> <!--New Changed beginning and ending tags from <li> to <dd> to remove bullets -->
+       <dd><h3>4 - Cottage Grove</h3></dd> <!--Changed beginning and ending tags from <li> to <dt> to remove bullets -->
+       <dd><h4>Resumes 12:10am</h4></dd> <!--Changed beginning and ending tags from <li> to <dt> to remove bullets -->
      </div>
+      <div class="arrow-left"> <!--Added new arrow navigation -->
+        <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+      </div>
+      <hr>
+      <div class="route_and_frequency">
+       <dd><h3>20 Madison</h3></dd> <!--New Changed beginning and ending tags from <li> to <dt> to remove bullets -->
+       <dd><h4>Resumes 12:10am</h4></dd> <!--New Changed beginning and ending tags from <li> to <dt> to remove bullets -->
+      </div>
       <div class="arrow-left"> <!--NEW added new arrow navigation -->
         <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
       </div>
       <hr>
       <div class="route_and_frequency">
-       <dd><h3>20 Madison</h3></dd> <!--New Changed beginning and ending tags from <li> to <dd> to remove bullets -->
-       <dd><h4>Resumes 12:10am</h4></dd> <!--New Changed beginning and ending tags from <li> to <dd> to remove bullets -->
-      </div>
-      <div class="arrow-left"> <!--NEW added new arrow navigation -->
-        <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
-      </div>
-      <hr>
-      <div class="route_and_frequency">
-       <dd><h3>157 - Streeterville/Taylor</h3></dd> <!--New Changed beginning and ending tags from <li> to <dd> to remove bullets -->
-       <dd><h4>Resumes 6:00am</h4></dd> <!--New Changed beginning and ending tags from <li> to <dd> to remove bullets -->
+       <dd><h3>157 - Streeterville/Taylor</h3></dd> <!--New Changed beginning and ending tags from <li> to <dt> to remove bullets -->
+       <dd><h4>Resumes 6:00am</h4></dd> <!--New Changed beginning and ending tags from <li> to <dt> to remove bullets -->
       </div>
        <div class="arrow-left"> <!--NEW added new arrow navigation -->
          <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
